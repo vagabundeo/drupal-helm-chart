@@ -25,7 +25,7 @@ entries:
     - http://www.bitnami.com/
     type: library
     urls:
-    - https://charts.bitnami.com/bitnami/common-1.5.2.tgz
+    - https://github.com/vagabundeo/drupal-helm-chart/charts/common-1.5.2.tgz
     version: 1.5.2
   drupal:
   - annotations:
@@ -63,7 +63,7 @@ entries:
     - https://github.com/vagabundeo/bitnami-docker-drupal
     - http://www.drupal.org/
     urls:
-    - https://charts.bitnami.com/bitnami/drupal-10.2.22.tgz
+    - https://github.com/vagabundeo/drupal-helm-chart/drupal-10.2.22.tgz
     version: 10.2.22
   mariadb:
   - annotations:
@@ -96,6 +96,6 @@ entries:
     - https://github.com/prometheus/mysqld_exporter
     - https://mariadb.org
     urls:
-    - https://charts.bitnami.com/bitnami/mariadb-9.3.13.tgz
+    - https://github.com/vagabundeo/drupal-helm-chart/charts/mariadb-9.3.13.tgz
     version: 9.3.13
 generated: "2021-06-02T10:13:51.5310462-04:00"
