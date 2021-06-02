@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.5.2
-    created: "2021-06-02T09:45:24.1146525-04:00"
+    created: "2021-06-02T10:13:51.5429616-04:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts. This chart is not deployable by itself.
     digest: 5d0ddb0822dbdc1625f415eef7c13a635f5159e51b4b7dc1bf09d99699151b25
     home: https://github.com/bitnami/charts/tree/master/bitnami/common
@@ -27,12 +27,50 @@ entries:
     urls:
     - https://github.com/vagabundeo/drupal-helm-chart/charts/common-1.5.2.tgz
     version: 1.5.2
+  drupal:
+  - annotations:
+      category: CMS
+    apiVersion: v2
+    appVersion: 9.1.9
+    created: "2021-06-02T10:13:51.5421045-04:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: One of the most versatile open source content management systems.
+    digest: 5c833f02531c629f96e364e73a2a230b329ebe0a1107b2d9be2d58227c52159f
+    home: https://github.com/bitnami/charts/tree/master/bitnami/drupal
+    icon: https://bitnami.com/assets/stacks/drupal/img/drupal-stack-220x234.png
+    keywords:
+    - drupal
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: drupal
+    sources:
+    - https://github.com/vagabundeo/bitnami-docker-drupal
+    - http://www.drupal.org/
+    urls:
+    - https://github.com/vagabundeo/drupal-helm-chart/drupal-10.2.22.tgz
+    version: 10.2.22
   mariadb:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 10.5.10
-    created: "2021-06-02T09:45:24.1207737-04:00"
+    created: "2021-06-02T10:13:51.5457686-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -60,4 +98,4 @@ entries:
     urls:
     - https://github.com/vagabundeo/drupal-helm-chart/charts/mariadb-9.3.13.tgz
     version: 9.3.13
-generated: "2021-06-02T09:45:24.1122912-04:00"
+generated: "2021-06-02T10:13:51.5310462-04:00"
