@@ -29,6 +29,6 @@ maintainers:
     name: Bitnami
 name: drupal
 sources:
-  - https://github.com/vagabundeo/bitnami-docker-drupal
+  - https://github.com/vagabundeo/bitnami-docker-drupal-from
   - http://www.drupal.org/
 version: 10.2.22
