@@ -8,7 +8,7 @@ entries:
     created: "2021-06-02T10:13:51.5429616-04:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts. This chart is not deployable by itself.
     digest: 5d0ddb0822dbdc1625f415eef7c13a635f5159e51b4b7dc1bf09d99699151b25
-    home: https://github.com/bitnami/charts/tree/master/bitnami/common
+    home: https://github.com/vagabundeo/drupal-helm-chart
     icon: https://bitnami.com/downloads/logos/bitnami-mark.png
     keywords:
     - common
@@ -79,7 +79,7 @@ entries:
       version: 1.x.x
     description: Fast, reliable, scalable, and easy to use open-source relational database system. MariaDB Server is intended for mission-critical, heavy-load production systems as well as for embedding into mass-deployed software. Highly available MariaDB cluster.
     digest: bf033045b39001ea52a2b4361a6ec8f5c7997eae36e9562945b3b205568a83a0
-    home: https://github.com/bitnami/charts/tree/master/bitnami/mariadb
+    home: https://github.com/vagabundeo/drupal-helm-chart
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
     keywords:
     - mariadb
