@@ -45,7 +45,7 @@ entries:
       version: 1.x.x
     description: One of the most versatile open source content management systems.
     digest: 5c833f02531c629f96e364e73a2a230b329ebe0a1107b2d9be2d58227c52159f
-    home: https://github.com/bitnami/charts/tree/master/bitnami/drupal
+    home: https://github.com/vagabundeo/drupal-helm-chart
     icon: https://bitnami.com/assets/stacks/drupal/img/drupal-stack-220x234.png
     keywords:
     - drupal
